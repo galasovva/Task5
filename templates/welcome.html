@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Главная страница</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <a href="{{url_for('athletes')}}">Спортсмены</a>
+        <a href="{{url_for('contacts')}}">Контакты</a>
+        <h2 class="title">Главная</h2>
+        <h1 class="subtitle">Спортивные товары</h1>
+        <u1 class="list">
+            <li class="spisok">Одежда</li>
+            <p class="text">Быть в форме легко в одежде из нашей коллекции!</p>
+            <li class="spisok">Обувь</li>
+            <p class="text">Зачем ходить босиком, если можно обуться?</p>
+            <li class="spisok">Инвентарь</li>
+            <p class="text">Помоги себе сам - это прошлый век. У нас есть все, чтобы помочь тебе!</p>
+        </u1>
+    </body>
+</html>

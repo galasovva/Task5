@@ -1,0 +1,48 @@
+h1 {
+    color: #191970;
+    font-weight: bold;
+    background-color: #ffd700;
+}
+h2 {
+    color: #000080;
+    font: 100px;
+    background-color: #bdb76b;
+}
+h3 {
+    font: 40px;
+    color: #483d8b;
+    background-color: #fdf5e6;
+}
+p {
+    font: 20px;
+    color:#556b2f;
+}
+.text{
+    font-weight: bold;
+    background-color: #fdf5e6;
+}
+.title{
+    font: 100px;
+    text-align: center;
+}
+.subtitle{
+    font: 50px;
+    text-decoration: underline;
+    text-align: center;
+}
+.list{
+    color: Black;
+    list-style-type: space-counter;
+    background-color: "#ffd700"
+}
+.spisok{
+    font-size: 35px;
+    font-style: italic;
+    color: DarkGreen;
+    background-color: "#ffdead"
+}
+.contact{
+    font: 30px;
+    color: DarkGreen;
+    background-color: "#ffdead"
+}
